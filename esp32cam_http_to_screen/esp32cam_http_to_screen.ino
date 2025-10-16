@@ -37,8 +37,8 @@ WebServer server(80);   // ← esta línea es la que falta
 // ===========================
 // Enter your WiFi credentials
 // ===========================
-const char* ssid = "Telecentro-2be3";
-const char* password = "GU3QFXA6FH47";
+const char* ssid = "Nombre red wifi";
+const char* password = "Clave Red WIFI";
 // IP fija
 IPAddress local_IP(192, 168, 0, 250);      // IP deseada
 IPAddress gateway(192, 168, 0, 1);         // IP del router
@@ -218,3 +218,4 @@ void loop() {
   // Do nothing. Everything is done in another task by the web server
   server.handleClient();
 }
+
